@@ -1,6 +1,7 @@
 /* eslint-disable no-param-reassign */
 const clearArr = (arr) => {
-  arr = [];
+  arr.length = 0;
+  return arr
 };
 
 const getFirstItem = (array) => {
